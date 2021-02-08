@@ -9,10 +9,12 @@ require (
 	golang.org/x/net v0.0.0-20210119194325-5f4716e94777
 	golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c
 	golang.org/x/text v0.3.5
-	golang.zx2c4.com/wireguard v0.0.0-20210203165646-9c7bd73be2cc
+	golang.zx2c4.com/wireguard v0.0.0-20210212170059-7a0fb5bbb172
 )
 
 replace (
 	github.com/lxn/walk => golang.zx2c4.com/wireguard/windows v0.0.0-20210121140954-e7fc19d483bd
-	github.com/lxn/win => golang.zx2c4.com/wireguard/windows v0.0.0-20201107183008-659a4e955570
+	github.com/lxn/win => golang.zx2c4.com/wireguard/windows v0.0.0-20210203225805-358658953538
+	golang.org/x/crypto => golang.zx2c4.com/wireguard/windows v0.0.0-20210215171344-d274665163f2
+	golang.org/x/sys => golang.zx2c4.com/wireguard/windows v0.0.0-20210203232643-55c5ea4b10b9
 )
